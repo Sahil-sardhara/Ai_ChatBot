@@ -10,8 +10,9 @@ An AI-powered chatbot built in Flutter using **Google's Gemini API** (Generative
 
 This is the initial screen of the chatbot, where users can enter prompts and interact with the AI:
 
-![ChatScreen UI](https://github.com/user-attachments/assets/19038de6-4394-4aa7-8ea0-960bd2dec3e7)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5aa545f8-9cb6-4cc2-ad77-7ff7c6206d7e" alt="ChatScreen UI">
+</div>
 
 ---
 
@@ -19,8 +20,9 @@ This is the initial screen of the chatbot, where users can enter prompts and int
 
 The chatbot responds in real-time using the Gemini API:
 
-![Response of User Text](https://github.com/user-attachments/assets/75846812-014b-407f-a6e0-5b5922a7efb6)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/75846812-014b-407f-a6e0-5b5922a7efb6" alt="Response of User Text">
+</div>
 
 ---
 
@@ -28,34 +30,39 @@ The chatbot responds in real-time using the Gemini API:
 
 A complete walkthrough of the AI Chatbot in action:
 
+<div align="center">
 
-https://github.com/user-attachments/assets/ff3503e3-aeef-486c-98d3-fd67026a34e3
+[https://github.com/user-attachments/assets/0c38a946-3e9c-4e0c-b305-688e5c473376](https://github.com/user-attachments/assets/0c38a946-3e9c-4e0c-b305-688e5c473376)
+
+</div>
 
 
-<video src="assets/flutter_viedo.mp4" width="700" controls></video>
 
 ---
 
 ## ✨ Features
 
-- 🔗 Integration with Google Gemini API
-- 💬 Chat interface with instant responses
-- 🌙 Dark-themed, mobile-friendly design
-- 📜 Context-aware chat history
-- 🧠 Uses Gemini Pro for intelligent text generation
-- 🗂️ Clean folder structure with modular design
-- 🔒 API key securely handled via local file
+* 🔗 Integration with Google Gemini API
+* 💬 Chat interface with instant responses
+* 🌙 Dark-themed, mobile-friendly design
+* 📜 Context-aware chat history
+* 🧠 Uses Gemini Pro for intelligent text generation
+* 🗂️ Clean folder structure with modular design
+* 🔒 API key securely handled via local file
 
 ---
 
 ## 🚀 Getting Started
 
-### 📋 Prerequisites
+### 📋 Prerequisites (Tech Before Installation)
 
-- Flutter SDK (3.x recommended)
-- Dart
-- Android/iOS emulator or device
-- Google Gemini API Key
+* ✅ Flutter SDK (3.x recommended)
+* ✅ Dart
+* ✅ Android/iOS emulator or real device
+* ✅ Google Gemini API Key
+* ✅ VSCode or Android Studio with Flutter plugin
+
+---
 
 ### 🔧 Installation
 
@@ -63,49 +70,55 @@ https://github.com/user-attachments/assets/ff3503e3-aeef-486c-98d3-fd67026a34e3
 git clone https://github.com/Sahil-Sardhara/Ai-ChatBot.git
 cd Ai-ChatBot
 flutter pub get
-🔐 Set up your Gemini API Key
-Create a lib/secret.dart file:
+```
 
-dart
-Copy
-Edit
+---
+
+### 🔐 Set up your Gemini API Key
+
+Create a file at `lib/secret.dart`:
+
+```dart
 const String GEMINI_API_KEY = "your-api-key-here";
-Make sure secret.dart is in .gitignore:
+```
 
-gitignore
-Copy
-Edit
+Make sure it's ignored by Git:
+
+```gitignore
 lib/secret.dart
-🧪 Usage
+```
+
+---
+
+## 🧪 Usage
+
 Run the app using:
 
-bash
-Copy
-Edit
+```bash
 flutter run
-Start interacting with your AI ChatBot using prompts like:
+```
 
-“Who developed Flutter?”
+Try prompts like:
 
-“Write a poem about the night sky.”
+* “Who developed Flutter?”
+* “Write a poem about the night sky.”
+* “Explain machine learning in simple terms.”
 
-“Explain machine learning in simple terms.”
+---
 
-🛠 Tech Stack
-Flutter – Mobile framework
+## 🛠 Tech Stack
 
-Dart – Programming language
+* **Flutter** – Mobile UI Framework
+* **Dart** – Programming Language
+* **HTTP** – For Gemini API communication
+* **Gemini Pro** – Google Generative AI
+* **GetX / Provider** – Optional state management
 
-HTTP – For Gemini API requests
+---
 
-Gemini Pro – Google Generative AI
+## 📁 Folder Structure
 
-GetX/Provider – (Optional) State management
-
-📁 Folder Structure
-css
-Copy
-Edit
+```
 lib/
 ├── screens/
 │   └── chat_screen.dart
@@ -115,11 +128,23 @@ lib/
 │   └── message_bubble.dart
 ├── secret.dart
 └── main.dart
+
 assets/
 ├── chatscreen.png
 ├── response.png
 └── flutter_viedo.mp4
+```
 
+---
 
-📄 License
-This project is licensed under the MIT License.
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙋‍♂️ Author
+
+**Sahil Sardhara**
+Flutter Developer | Tech Support | Passionate about AI & UI/UX
+[GitHub](https://github.com/Sahil-Sardhara) • [LinkedIn](https://linkedin.com/in/sahil-sardhara)

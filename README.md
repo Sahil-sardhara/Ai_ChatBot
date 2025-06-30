@@ -10,7 +10,8 @@ An AI-powered chatbot built in Flutter using **Google's Gemini API** (Generative
 
 This is the initial screen of the chatbot, where users can enter prompts and interact with the AI:
 
-![ChatScreen UI](assets/chatscreen.png)
+![ChatScreen UI](https://github.com/user-attachments/assets/19038de6-4394-4aa7-8ea0-960bd2dec3e7)
+
 
 ---
 
@@ -18,13 +19,18 @@ This is the initial screen of the chatbot, where users can enter prompts and int
 
 The chatbot responds in real-time using the Gemini API:
 
-![Response of User Text](assets/response.png)
+![Response of User Text](https://github.com/user-attachments/assets/75846812-014b-407f-a6e0-5b5922a7efb6)
+
 
 ---
 
 ### 📽️ Full Demonstration of APK
 
 A complete walkthrough of the AI Chatbot in action:
+
+
+https://github.com/user-attachments/assets/ff3503e3-aeef-486c-98d3-fd67026a34e3
+
 
 <video src="assets/flutter_viedo.mp4" width="700" controls></video>
 
@@ -54,8 +60,8 @@ A complete walkthrough of the AI Chatbot in action:
 ### 🔧 Installation
 
 ```bash
-git clone https://github.com/your-username/ai-chatbot-gemini.git
-cd ai-chatbot-gemini
+git clone https://github.com/Sahil-Sardhara/Ai-ChatBot.git
+cd Ai-ChatBot
 flutter pub get
 🔐 Set up your Gemini API Key
 Create a lib/secret.dart file:
@@ -113,10 +119,7 @@ assets/
 ├── chatscreen.png
 ├── response.png
 └── flutter_viedo.mp4
-📬 Contact
-💼 LinkedIn
 
-💻 GitHub
 
 📄 License
 This project is licensed under the MIT License.
